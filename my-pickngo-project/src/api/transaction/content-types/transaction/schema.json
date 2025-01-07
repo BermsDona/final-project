@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "transactions",
+  "info": {
+    "singularName": "transaction",
+    "pluralName": "transactions",
+    "displayName": "Transaction"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "customer_name": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "product_name": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "total": {
+      "type": "integer"
+    },
+    "branch_name": {
+      "type": "string"
+    }
+  }
+}
